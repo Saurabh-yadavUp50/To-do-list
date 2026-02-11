@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#main{
+    height: 600px;
+    width: 100%;
+    background-color:#fee9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todocontainer{
+    height: 550px;
+    width: 500px;
+    background-color:rgb(251, 202, 251) ;
+     align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+}
+
+.todocontainer h2{
+ color: rgb(235, 11, 160);
+ margin-top: 10px;
+   
+}
+
+.input{
+    margin-top: 20px;
+     height: 20px;
+    display: flex;
+    gap: 10px;
+
+}
+.input input{
+    height: 20px;
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #fee9fc;
+    font-size: 20px;
+    color: rgb(235, 11, 160);
+}
+.input button{
+    width: 70px;
+    height: 38px;
+    font-size: 20px;
+    background-color: rgb(235, 11, 160);
+    color: #fee9fc;
+    border: none;
+    border-radius :5px;;
+    cursor: pointer;
+
+}
+
+.todolistdiv{
+    position: absolute;
+    top: 30%;
+    height:300px;
+}
+.todolistdiv ul{
+    list-style: none;
+}
+.todolistdiv ul li{
+    list-style: none;
+}
+.todolist{
+    height: 40px;
+    width: 450px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.todolist input{
+    height: 20px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #fee9fc;
+    font-size: 20px;
+    color: rgb(235, 11, 160);
+}
+.todolist button{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(235, 11, 160);
+    color:rgb(251, 202, 251);
+    border: none;
+    border-radius :5px;;
+    cursor: pointer;
+
+}
+.active{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    
+}
+
